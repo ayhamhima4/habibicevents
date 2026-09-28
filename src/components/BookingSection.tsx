@@ -327,7 +327,7 @@ export const BookingSection: React.FC<BookingSectionProps> = ({
                   <div>
                     <span className="block text-xs text-stone-400">الهاتف المباشر</span>
                     <span className="font-bold text-base sm:text-lg font-sans text-white tracking-wider block" dir="ltr">
-                      +213771950677
+                      {BRAND_INFO.phone}
                     </span>
                   </div>
                 </a>

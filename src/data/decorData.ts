@@ -237,9 +237,9 @@ export const TESTIMONIALS: Testimonial[] = [
 export const BRAND_INFO = {
   name: 'Habibiç Événements & Mariages',
   shortName: 'Habibiç',
-  phone: '0771 95 06 77',
+  phone: '0553 75 79 98',
   secondaryPhone: '0555 00 00 00',
-  phoneRaw: '213771950677',
+  phoneRaw: '213553757998',
   handle: 'habibic.events',
   instagram: 'habibic.events',
   tiktok: 'habibic.events',

@@ -49,7 +49,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="hover:text-white transition-colors flex items-center gap-1"
             >
               <i className="fa-solid fa-phone text-[#D4AF37]" aria-hidden="true"></i>
-              <span>{BRAND_INFO.phone}</span>
+              <span dir="ltr" className="font-sans inline-block">{BRAND_INFO.phone}</span>
             </a>
             <span className="text-[#D4AF37]/40" aria-hidden="true">|</span>
             <a
@@ -145,7 +145,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 title="اتصال مباشر"
               >
                 <i className="fa-solid fa-phone text-[#D4AF37]" aria-hidden="true"></i>
-                <span dir="ltr">{BRAND_INFO.phone}</span>
+                <span dir="ltr" className="font-sans inline-block">{BRAND_INFO.phone}</span>
               </a>
 
               {/* Instagram, TikTok & Facebook Social Icons in Navbar */}
@@ -231,7 +231,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-[#800020] font-bold text-sm border border-amber-300"
               >
                 <i className="fa-solid fa-phone text-[#D4AF37]" aria-hidden="true"></i>
-                <span>اتصال مباشر: {BRAND_INFO.phone}</span>
+                <span>اتصال مباشر: <span dir="ltr" className="font-sans inline-block">{BRAND_INFO.phone}</span></span>
               </a>
 
               <a

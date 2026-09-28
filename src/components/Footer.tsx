@@ -118,7 +118,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-[#D4AF37] transition-colors text-right flex items-center gap-1.5"
                 >
                   <i className="fa-solid fa-phone text-[#D4AF37] text-xs" aria-hidden="true"></i>
-                  <span>اتصال هاتفي: {BRAND_INFO.phone}</span>
+                  <span>اتصال هاتفي: <span dir="ltr" className="font-sans inline-block">{BRAND_INFO.phone}</span></span>
                 </a>
               </li>
               <li>

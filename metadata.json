@@ -1,0 +1,6 @@
+{
+  "name": "Habibiç Événements & Mariages",
+  "description": "تنظيم وكراء ديكورات الأعراس والفعاليات الفاخرة - منصات العروسين المضيئة وطاولات الضيافة الملكية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

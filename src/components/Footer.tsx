@@ -118,7 +118,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-[#D4AF37] transition-colors text-right flex items-center gap-1.5"
                 >
                   <i className="fa-solid fa-phone text-[#D4AF37] text-xs" aria-hidden="true"></i>
-                  <span>اتصال هاتفي: <span dir="ltr" className="font-sans inline-block">{BRAND_INFO.phone}</span></span>
+                  <span>اتصال هاتفي: <bdi dir="ltr" className="phone-number-ltr" style={{ direction: 'ltr', unicodeBidi: 'embed' }}>{BRAND_INFO.phone}</bdi></span>
                 </a>
               </li>
               <li>
@@ -190,9 +190,20 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
 
         {/* Copyright Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-3">
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-stone-500 gap-3 border-t border-white/5">
           <p>© 2026 {BRAND_INFO.name}. جميع الحقوق محفوظة.</p>
-          <p className="flex items-center gap-1">
+          <p className="font-sans text-stone-400" dir="ltr" style={{ direction: 'ltr', unicodeBidi: 'embed' }}>
+            Designed &amp; Developed by{' '}
+            <a
+              href="https://www.instagram.com/ayham_hima4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#D4AF37] hover:text-[#F3E5AB] font-semibold transition-colors hover:underline"
+            >
+              @ayham_hima4
+            </a>
+          </p>
+          <p className="hidden md:flex items-center gap-1">
             <span>صُمم بكل فخامة وإتقان</span>
             <i className="fa-solid fa-heart text-[#800020] text-[10px]" aria-hidden="true"></i>
             <span>لأجمل ليالي العمر</span>

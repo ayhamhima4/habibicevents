@@ -72,7 +72,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-[#800020] border border-amber-300 font-bold text-xs sm:text-sm shadow-xs transition-colors"
               >
                 <i className="fa-solid fa-phone text-[#D4AF37]" aria-hidden="true"></i>
-                <span dir="ltr" className="font-sans inline-block">{BRAND_INFO.phone}</span>
+                <bdi dir="ltr" className="phone-number-ltr" style={{ direction: 'ltr', unicodeBidi: 'embed' }}>
+                  {BRAND_INFO.phone}
+                </bdi>
                 <span className="text-[11px] text-stone-500 font-normal">(اتصال فوري)</span>
               </a>
 

@@ -326,9 +326,9 @@ export const BookingSection: React.FC<BookingSectionProps> = ({
                   </span>
                   <div>
                     <span className="block text-xs text-stone-400">الهاتف المباشر</span>
-                    <span className="font-bold text-base sm:text-lg font-sans text-white tracking-wider block" dir="ltr">
+                    <bdi dir="ltr" className="font-bold text-base sm:text-lg font-sans text-white tracking-wider block phone-number-ltr" style={{ direction: 'ltr', unicodeBidi: 'embed' }}>
                       {BRAND_INFO.phone}
-                    </span>
+                    </bdi>
                   </div>
                 </a>
                 <a

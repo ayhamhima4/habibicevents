@@ -251,9 +251,9 @@ export const BRAND_INFO = {
   googleMapsUrl: 'https://maps.app.goo.gl/QfBDy1zB2CQhuLoU9?g_st=ic',
   googleMapsEmbedQuery: '36.1511169,5.7032182',
   hours: '7 أيام / 7 من 09:00 إلى 21:00 (الجمعة من 14:00 إلى 20:00)',
-  logoUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBY_dhx7C7U3mJzgFwLZ0NnaGeQubxO4LqWVuVovaxZjP7RMmNDN-d8ABbRilFF9FkXNdSWoZnNtp7HauD_7IXqG3D3QMYG6eecBjQeuR2SUckFLsg3-QF31nD_kqblTkiQbRpcDB2OLu5M7K8UaUw-qXOIpRjGTEgDCTYObBtk0IlgHhIHFbdKyK0JiDkvRRNZKYVu8VFc7cCpylvmigmc7JODaTV5eKTvcU6C96oLgl846C1DWZQ3vmFdCQZx38RegnU',
-  badgeLogoUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAPkd4Qd9A4k2cXxrM0t9Na0bNApI1jcqF5sQKMDLUYbU66TEJp4aCGgJcxHub-gQi7X7EW34GaDZU6UZho8CQPL_M4158bJhWsU49uDMVJU7Q8lts04RNdg7chhyuuMlZwSjUGMRdAW4hGztaaaf36MhXeUo9ivTzUpuJfnuz1YLhyWd3MKXQ-fge8pdyrLz7HcahJqQ5zzjNV4g63Y50kEc_4SYr_hkTVP1DBT9FdkPzEwVx53-gqjklhqc2QeKuyoEk',
-  footerLogoUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAI-iMPlGqpjt2Ru0xyg4WCXu0mCEhs2IPwRZtz8NGRPFEt8KLqOat53iqIlbVWVHmGrWomgCGghPagfNA4wFjni_eOnmcHUNd1K5GX7YS4wZwJNexweDvqduHGm1R1Iow_hhPvI6A7Yy6wXIvBIFlt738obwMRY51AhI3Iapa5lUmtmVzxVsazvxXW7UI6Pn0bxz86edurJd1xEzIlZ0UVZ3ERml1MybUN8L4kbaPd7G1-lK3O4I-7-ggtUj5W3MfoUWY',
+  logoUrl: '/logo.png',
+  badgeLogoUrl: '/logo.png',
+  footerLogoUrl: '/logo.png',
   heroMainImg: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfkbPNp4qsp-rdrnHZIbZrzgV4QBboz8UOqueF8r0AUyv8ElI8B9hTBhpZVgcaJqEDCsnfvw7MdAEMJW78VPVZXRIABZBzRZJ4yiTHnYRFKYP14j_rDMjdMuKFLRWTtRe3tbZ9XdDaY_46BAG-eCTNfHglZ0USjEBDGBEQRoRVoUh4-LVzd2M_-mCIKBVgjpXwyezTIz7_Yioj-tynJ6EF6lBFCix1Hq4daZUBzIUnNSG5lJBxWESu-UHha3g4rfNpe9w',
   heroAccessoryImg: 'https://lh3.googleusercontent.com/aida-public/AB6AXuALorHBBl9Dtvz2BwmcP0_Ywr8lqkGn7XbXEfG7SE8z7zC3LZYRQmB7gM3v1Lor7wn9L2ltUhvr55ueBuccqj6i3vLFnpD--lA2hir_hIbf3kun0TL3u9k2FBG3RBtoB5h_lDrgol_l8F9TkIZWKVdr05oCHLLCOPMadaTgUX_-PK6qKYSc2j-WzYiEPLXcEKdLoT1u9eFOMwtLGIvNWu_Ba0jAademqBSnv8s-VvdD7w084rrlCsRMgEdlRyOIczr4jko'
 };
